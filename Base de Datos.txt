@@ -1,0 +1,11 @@
+CREATE TABLE `clientes` (
+  `id_Cliente` int(255) NOT NULL,
+  `nombre_Cliente` varchar(100) NOT NULL,
+  `correo_Cliente` varchar(100) NOT NULL,
+  `contrasena_Cliente` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+ALTER TABLE `clientes`
+  ADD PRIMARY KEY (`id_Cliente`);
+ALTER TABLE `clientes`
+  MODIFY `id_Cliente` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+COMMIT;
