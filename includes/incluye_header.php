@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=	, initial-scale=1.0">
 	<title>Carrito de Compras</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
 	<!-- <link rel="stylesheet" href="css/styles.css"> -->
 </head>
 <body>
@@ -23,7 +22,7 @@
 				  <li class="nav-item dropdown ">
 				    <a class="nav-link dropdown-toggle text-light mx-3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Usuarios</a>
 				    <ul class="dropdown-menu">
-				      <li><a class="dropdown-item" href="#">Consulta Usuarios</a></li>
+				      <li><a class="dropdown-item" href="consulta_Usuarios.php">Consulta Usuarios</a></li>
 				      <li><hr class="dropdown-divider"></li>
 				      <li><a class="dropdown-item" href="ingresa_usuarios.php">Registra Usuarios</a></li>
 				    </ul>
@@ -31,9 +30,9 @@
 				  <li class="nav-item dropdown ">
 				    <a class="nav-link dropdown-toggle text-light mx-3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a>
 				    <ul class="dropdown-menu">
-				      <li><a class="dropdown-item" href="#">Consulta Productos</a></li>
+				      <li><a class="dropdown-item" href="consulta_Productos.php">Consulta Productos</a></li>
 				      <li><hr class="dropdown-divider"></li>
-				      <li><a class="dropdown-item" href="#">Registra Productos</a></li>
+				      <li><a class="dropdown-item" href="ingresa_Productos.php">Registra Productos</a></li>
 				    </ul>
 				  </li>	
 				   <li class="nav-item">
