@@ -10,11 +10,12 @@ if ($con) {
             $ins->bind_param("isss",$id,$nombre_Producto,$descripcion_Producto,$presentacion_Producto);
             if($ins->execute()){
                 echo "Se ha registrado el producto";
-                header("Location:index.php?registroPExito=true");
+                header("Location:alerta.php?tipo=exito&operacion=Producto Guardado&destino=ingresa_Productos.php");
+
             }
             else{
                 echo "Error al insertar producto";
-                header("Location:index.php?registroPExito=false");
+                header("Location:alerta.php?tipo=fracaso&operacion=Producto No Guardado&destino=ingresa_Productos.php");
             }
             $ins->close();
             $con->close();
