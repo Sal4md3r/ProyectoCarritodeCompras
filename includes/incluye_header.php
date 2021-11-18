@@ -32,7 +32,7 @@
 				    <ul class="dropdown-menu">
 				      <li><a class="dropdown-item" href="consulta_Productos.php">Consulta Productos</a></li>
 				      <li><hr class="dropdown-divider"></li>
-				      <li><a class="dropdown-item" href="ingresa_Productos.php">Registra Productos</a></li>
+				      <li><a class="dropdown-item" href="ingresa_Categoria.php">Registra Productos</a></li>
 				    </ul>
 				  </li>	
 				   <li class="nav-item">
