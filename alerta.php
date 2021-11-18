@@ -10,7 +10,7 @@ $destino=$_GET['destino'];
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php include'inc/incluye_bootstrap.php' ?>
+        <?php include'includes/incluye_bootstrap.php' ?>
         <link href="css/sweetalert.css" rel="stylesheet">
         <script src="js/sweetalert.min.js"></script>
 

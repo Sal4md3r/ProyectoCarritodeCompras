@@ -11,12 +11,12 @@ if ($con) {
             $ins->bind_param("issss",$id,$nombre_Producto,$descripcion_Producto,$presentacion_Producto,$categoria_Producto);
             if($ins->execute()){
                 echo "Se ha registrado el producto";
-                header("Location:alerta.php?tipo=exito&operacion=Producto Guardado&destino=ingresa_Productos.php");
+                header("Location:alerta.php?tipo=exito&operacion=Producto Guardado&destino=consulta_Productos.php");
 
             }
             else{
                 echo "Error al insertar producto";
-                header("Location:alerta.php?tipo=fracaso&operacion=Producto No Guardado&destino=ingresa_Productos.php");
+                header("Location:alerta.php?tipo=fracaso&operacion=Producto No Guardado&destino=consulta_Productos.php");
             }
             $ins->close();
             $con->close();
