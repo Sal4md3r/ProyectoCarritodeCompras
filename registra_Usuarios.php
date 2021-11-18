@@ -10,11 +10,11 @@ if ($con) {
             $ins->bind_param("isss",$id,$nombre_cliente,$email_cliente,$contrasena_cliente);
             if($ins->execute()){
                 echo "Se ha registrado el proveedor";
-                header("Location:index.php?registroExito=true");
+                header("Location:alerta.php?tipo=exito&operacion=Usuario Guardado&destino=ingresa_Usuarios.php");
             }
             else{
                 echo "Error al insertar Proveedor";
-                header("Location:index.php?registroExito=false");
+                header("Location:alerta.php?tipo=fracaso&operacion=Usuario no Guardado&destino=ingresa_Productos.php");
             }
             $ins->close();
             $con->close();
