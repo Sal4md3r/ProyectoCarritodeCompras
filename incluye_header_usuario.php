@@ -10,14 +10,14 @@
 <body>
 	
 	<div class="container-fluid bg-primary text-center p-5">
-			<h1 class="text-light">Tu carrito de compras</h1>
+			<h1 class="text-light">Bienvenido <?=$_SESSION['nombre']?></h1>
 	</div>
 
 	<div class="container-fluid">
 		<div class="row bg-secondary p-3">
 				<ul class="nav justify-content-center">
 				  <li class="nav-item">
-				    <a class="nav-link active text-light mx-3" aria-current="page" href="index.php">Inicio</a>
+				    <a class="nav-link active text-light mx-3" aria-current="page" href="incluye_header_usuario.php">Inicio</a>
 				  </li>			
 				  <li class="nav-item dropdown ">
 				    <a class="nav-link dropdown-toggle text-light mx-3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a>
@@ -30,15 +30,12 @@
 				   <li class="nav-item">
 				    <a class="nav-link active text-light mx-3" aria-current="page" href="ver_Carrito.php">Carrito</a>
 				  </li>
-				  <li class="nav-item dropdown ">
-				    <a class="nav-link dropdown-toggle text-light mx-3" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Cuenta</a>
-				    <ul class="dropdown-menu">
-				      <li><a class="dropdown-item" href="sesion_Formulario.php">Iniciar Sesion</a></li>
-				      <li><hr class="dropdown-divider"></li>
-				      <li><a class="dropdown-item" href="ingresa_.php">Registrarse</a></li>
-				    </ul>
-				  </li>		
+				  <li class="nav-item">
+				    <a class="nav-link active text-light mx-3" aria-current="page" href="cerrar_Sesion.php">Cerrar Sesion</a>
+				  </li>	
 		</div>
 	</div>
 	<div class="container overflow-hidden">
             <div class="jumbotron bg-dark text-light m-3 p-4">
+
+
