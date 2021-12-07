@@ -1,13 +1,16 @@
-	<?php include'includes/incluye_header.php';
+	<?php 
+	 	require_once('includes/incluye_header.php');
+ 		require_once("includes/incluye_menu.php");
 	 ?>
+	 <div class="container ">
+            <div class="jumbotron bg-dark text-light m-3 p-4">
+			<h1>Bienvenido al sistema de carrito de compras</h1>
 
-		<?php if (isset($_SESSION['nombre'])): ?>
-	    	<h1 >Bienvenido <?= $_SESSION['nombre']?></h1>       			
-		<?php else : ?>
-			<h1>Bienvenido al sistema de lcarrito de compras</h1>
-		<?php endif; ?>
+			
 
-	<?php include'includes/incluye_footer.php' ?>
+
+
+	<?php require_once('includes/incluye_footer.php') ?>
 
 
 

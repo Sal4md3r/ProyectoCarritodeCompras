@@ -1,9 +1,9 @@
 <?php include'includes/incluye_header.php';
      include'includes/conexion.php';
-     include 'includes/incluye_datatable_head.php';
 ?>
 
-
+<div class="container ">
+            <div class="jumbotron bg-dark text-light m-3 p-4">
      <h1 class="text-center  p-2">Inicio de Sesion</h1>
                     <form action="incia_sesion.php" method="POST" id="registo_Usuarios">
                          <div class="mb-3">

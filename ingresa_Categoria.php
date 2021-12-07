@@ -1,4 +1,5 @@
 <?php include'includes/incluye_header.php';
+require_once('includes/incluye_menu.php');
      include'includes/conexion.php';
      include 'includes/incluye_datatable_head.php';
 
@@ -8,7 +9,9 @@
      $row = mysqli_num_rows($res);
 ?>
 
-
+<div class="container ">
+            <div class="jumbotron bg-dark text-light m-3 p-4">  
+    <h2>Selecciona una categoria</h2>
       <table id="example" class="table table-success table-striped table-hover table-bordered" cellspacing="0" width="100%">
                     <thead>
                     <th class="text-center">Id Categoria</th>

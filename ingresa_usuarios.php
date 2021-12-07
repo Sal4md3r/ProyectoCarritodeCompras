@@ -1,6 +1,8 @@
-	<?php include'includes/incluye_header.php' ?>
-
-
+	<?php include'includes/incluye_header.php' ;
+            require_once('includes/incluye_menu.php');
+    ?>
+<div class="container ">
+            <div class="jumbotron bg-dark text-light m-3 p-4">
             <h1 class="text-center  p-2">Registro de Usuario</h1>
                     <form action="registra_Usuarios.php" method="POST" id="registo_Usuarios">
                         <div class="mb-3">
